@@ -1,0 +1,35 @@
+.animation {
+    transition: width 500ms, transform 500ms;
+}
+
+.base {
+    width: 50%;
+    height: 100%;    
+}
+
+.green {
+    background-color: green;
+    color: white;
+}
+
+.red {
+    background-color: red;
+    color: white;
+}
+
+.fullscreen-open {
+    width: 100%;
+}
+
+.fullscreen-close {
+    width: 0%;
+    font-size: 0;
+}
+
+.expand {
+    width: 85%;
+}
+
+.collapse {
+    width: 15%
+}
